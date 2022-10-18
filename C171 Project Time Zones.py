@@ -80,7 +80,7 @@ class Canada:
         
 class Australia:
     def times(self):
-        home = pytz.timezone('Europe/Vienna')
+        home = pytz.timezone('Australia/Sydney')
         local_time=datetime.now(home)
         current_time = local_time.strftime("%H:%M:%S")
         a_time["text"] = "Time: "+ current_time
